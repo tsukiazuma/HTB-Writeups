@@ -247,7 +247,7 @@ cat /root/root.txt
 ```
 
 <p align="center">
-  <img src="./screenshots/19-root.png" ">
+  <img src="./screenshots/19.png" ">
 </p>
 
 <p align="center"><i>Figure 17: Root shell obtained & Root flag</i></p>

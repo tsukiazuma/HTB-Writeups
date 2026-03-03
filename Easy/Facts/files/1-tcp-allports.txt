@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Tue Mar  3 09:23:32 2026 as: /usr/lib/nmap/nmap --privileged -p- --min-rate=1000 -T4 -oN 1-tcp-allports.txt 10.129.251.182
+Nmap scan report for facts.htb (10.129.251.182)
+Host is up (0.25s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+54321/tcp open  unknown
+
+# Nmap done at Tue Mar  3 09:24:39 2026 -- 1 IP address (1 host up) scanned in 67.12 seconds

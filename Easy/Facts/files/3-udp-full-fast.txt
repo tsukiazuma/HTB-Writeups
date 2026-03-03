@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Tue Mar  3 09:25:14 2026 as: /usr/lib/nmap/nmap --privileged -sU -p- --min-rate 1000 -T4 -v -oN 3-udp-full-fast.txt 10.129.251.182
+Warning: 10.129.251.182 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.129.251.182 from 100 to 200 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.129.251.182 from 200 to 400 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.129.251.182 from 400 to 800 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.129.251.182 from 800 to 1000 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for facts.htb (10.129.251.182)
+Host is up (0.25s latency).
+All 65535 scanned ports on facts.htb (10.129.251.182) are in ignored states.
+Not shown: 65074 open|filtered udp ports (no-response), 461 closed udp ports (port-unreach)
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Mar  3 09:32:54 2026 -- 1 IP address (1 host up) scanned in 459.57 seconds

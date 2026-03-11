@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Tue Mar 10 09:37:09 2026 as: /usr/lib/nmap/nmap --privileged -p- -sC -sV -O -T4 -oN 1-tcp-allports.txt 10.129.250.8
+Nmap scan report for cctv.htb (10.129.250.8)
+Host is up (0.050s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.14 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|_  256 76:1d:73:98:fa:05:f7:0b:04:c2:3b:c4:7d:e6:db:4a (ECDSA)
+80/tcp open  http    Apache httpd 2.4.58
+|_http-title: SecureVision CCTV & Security Solutions
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 2 hops
+Service Info: Host: default; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 10 09:38:27 2026 -- 1 IP address (1 host up) scanned in 77.93 seconds

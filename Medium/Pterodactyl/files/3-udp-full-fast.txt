@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Wed Mar  4 21:29:13 2026 as: /usr/lib/nmap/nmap --privileged -sU -p- --min-rate 1000 -T4 -v -oN 3-udp-full-fast.txt 10.219.251.247
+Nmap scan report for 10.219.251.247
+Host is up (0.00035s latency).
+All 65535 scanned ports on 10.219.251.247 are in ignored states.
+Not shown: 65535 open|filtered udp ports (no-response)
+
+Read data files from: /usr/share/nmap
+# Nmap done at Wed Mar  4 21:30:39 2026 -- 1 IP address (1 host up) scanned in 85.64 seconds

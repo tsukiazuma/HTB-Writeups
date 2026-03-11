@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Wed Mar  4 21:28:10 2026 as: /usr/lib/nmap/nmap --privileged -p22,80,443,8080 -sC -sV -O -T4 -oN 2-tcp-detailed.txt 10.219.251.247
+Nmap scan report for 10.219.251.247
+Host is up (0.00075s latency).
+
+PORT     STATE    SERVICE    VERSION
+22/tcp   filtered ssh
+80/tcp   filtered http
+443/tcp  filtered https
+8080/tcp filtered http-proxy
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DFL-700 firewall (89%), HP Officejet Pro 8500 printer (89%), IBM i 7.4 (89%), ReactOS 0.3.7 (89%), Sanyo PLC-XU88 digital video projector (89%), Sonus GSX9000 VoIP proxy (88%), Asus WL-500gP wireless broadband router (88%), Microsoft Windows 2000 (88%), Microsoft Windows Server 2003 Enterprise Edition SP2 (88%), Microsoft Windows Server 2003 SP2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  4 21:28:19 2026 -- 1 IP address (1 host up) scanned in 9.13 seconds

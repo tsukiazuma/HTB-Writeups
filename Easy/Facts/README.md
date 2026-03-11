@@ -99,7 +99,7 @@ gobuster dir -u http://facts.htb \
 
 ## 6. Exploit CVE based on CMS Version
 
-- Tra cứu thông tin Camaleon CMS 2.9.0 -> CVE CVE-2025-2304
+- Tra cứu thông tin Camaleon CMS 2.9.0 -> CVE-2025-2304
 - Thực hiện khai thác lỗ hổng
 
 <p align="center">

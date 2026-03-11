@@ -13,10 +13,9 @@
 1. [Reconnaissance](#-reconnaissance)
 2. [Enumeration](#-enumeration)
 3. [Exploitation](#-exploitation)
-4. [Cloud Pivot](#-cloud-pivot)
-5. [Initial Access](#-initial-access)
-6. [Privilege Escalation](#-privilege-escalation)
-7. [Flags](#-flags)
+4. [Initial Access](#-initial-access)
+5. [Privilege Escalation](#-privilege-escalation)
+6. [Flags](#-flags)
 
 ---
 

@@ -126,8 +126,6 @@ aws configure
 
 ---
 
-# ☁️ Cloud Pivot
-
 ## 8. List S3 Buckets
 
 ```bash
